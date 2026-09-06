@@ -46,6 +46,13 @@ body {
 .nav {
   padding: 1.4rem 0;
 }
+/* Nav spans full width so the logo/name hugs the left edge instead of
+   floating in from the centered content column on wide screens. */
+.nav .container {
+  max-width: 100%;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
 .nav-inner {
   display: flex;
   align-items: baseline;
