@@ -24,7 +24,7 @@ body {
   font-size: 17px;
   line-height: 1.6;
   color: var(--c-fg);
-  background: var(--c-bg);
+  background: radial-gradient(1100px 560px at 50% 90px, #e7d8f5, var(--c-bg) 68%) no-repeat var(--c-bg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
