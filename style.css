@@ -77,9 +77,6 @@ body {
   margin: 0 auto 1.5rem;
   box-shadow: 0 6px 24px rgba(145, 59, 130, 0.18);
 }
-@media (max-width: 600px) {
-  .brand-suffix { display: none; }
-}
 .nav-links {
   display: flex;
   gap: 1.6rem;
