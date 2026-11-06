@@ -1,0 +1,11 @@
+{
+  // evamacsai.com on the V-EVA Cloudflare account.
+  // Default html_handling is deliberate: "none" returns 404 for "/".
+  "name": "evamacsai-site",
+  "account_id": "630da447e912c66b8c1adca1341c8bb9",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": { "directory": "." },
+  "routes": [{ "pattern": "evamacsai.com", "custom_domain": true }]
+}
